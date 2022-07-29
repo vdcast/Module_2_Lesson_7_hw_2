@@ -21,14 +21,14 @@
         app:layout_constraintTop_toTopOf="parent"
         android:gravity="center"/>
 
-    <ImageView
-        android:id="@+id/ivOnBoardFirst"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="32dp"
-        android:scaleType="fitStart"
-        android:src="@drawable/audi_rs3_4gen"
-        app:layout_constraintEnd_toEndOf="@+id/tvOnBoardFirstDescription"
-        app:layout_constraintStart_toStartOf="@+id/tvOnBoardFirstDescription"
-        app:layout_constraintTop_toBottomOf="@+id/tvOnBoardFirstDescription" />
+<!--    <ImageView-->
+<!--        android:id="@+id/ivOnBoardFirst"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:scaleType="fitStart"-->
+<!--        android:src="@drawable/audi_rs3_4gen"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/tvOnBoardFirstDescription"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/tvOnBoardFirstDescription"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvOnBoardFirstDescription" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>

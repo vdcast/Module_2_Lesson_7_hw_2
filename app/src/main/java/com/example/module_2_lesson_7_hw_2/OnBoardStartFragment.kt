@@ -27,7 +27,7 @@ class OnBoardStartFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        ivOnBoardStart.setImageBitmap(onBoard?.image)
+//        ivOnBoardStart.setImageBitmap(onBoard?.image)
         tvOnBoardStartDescription.text = onBoard?.description
 
         btStart.setOnClickListener {

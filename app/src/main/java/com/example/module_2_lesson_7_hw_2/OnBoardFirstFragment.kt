@@ -27,7 +27,7 @@ class OnBoardFirstFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        ivOnBoardFirst.setImageBitmap(onBoardPage?.image)
+//        ivOnBoardFirst.setImageBitmap(onBoardPage?.image)
         tvOnBoardFirstDescription.text = onBoardPage?.description
 
     }
