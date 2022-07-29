@@ -1,6 +1,7 @@
 package com.example.module_2_lesson_7_hw_2
 
 import android.graphics.BitmapFactory
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -16,8 +17,6 @@ class MainActivity : AppCompatActivity() {
 
         var toastsArrayList = getToasts()
 
-
-
         val onBoardArrayList = arrayListOf(
             OnBoard(resources.getString(R.string.onboard_first), BitmapFactory.decodeResource(resources,R.drawable.audi_rs3_4gen)),
             OnBoard(resources.getString(R.string.onboard_second), BitmapFactory.decodeResource(resources,R.drawable.audi_a3_4gen)),
@@ -32,10 +31,12 @@ class MainActivity : AppCompatActivity() {
                 val randomIndex = Random.nextInt(toastsArrayList.size)
                 tvToast.text = toastsArrayList[randomIndex]
                 toastsArrayList.removeAt(randomIndex)
+                MediaPlayer.create(this,R.raw.cheer).start()
             } else {
                 val randomIndex = Random.nextInt(toastsArrayList.size)
                 tvToast.text = toastsArrayList[randomIndex]
                 toastsArrayList.removeAt(randomIndex)
+                MediaPlayer.create(this,R.raw.cheer).start()
             }
         }
 
