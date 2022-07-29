@@ -8,4 +8,20 @@
     <string name="bt_start">START</string>
     <string name="bt_toast">GET TOAST</string>
     <string name="toast_explain_text">Click on GET TOAST</string>
+    <string name="toast_1">\t\t\tToast #1\n\nMay every day bring more happiness than yesterday.</string>
+    <string name="toast_2">\t\t\tToast #2\n\nHere’s to your health and a hearty wish for your
+        happiness.\nMay every joy be yours and may bright stars of love shine over\nand above you always.</string>
+    <string name="toast_3">\t\t\tToast #3\n\nMay you always have some money\nleft from the money you have
+        spent\nto greet your landlord with a sneer\nwhen he comes calling for the rent.</string>
+    <string name="toast_4">\t\t\tToast #4\n\nCall frequently,\nDrink moderately,\nPart friendly,\n
+        Pay today,\nTrust tomorrow.</string>
+    <string name="toast_5">\t\t\tToast #5\n\nHealth to my body, wealth to my purse,\nHeaven to my soul, and I wish you no worse.</string>
+    <string name="toast_6">\t\t\tToast #6\n\nHere’s to your bright eyes and here’s to mine.\nHere’s
+        to your sweet lips and here’s to mine.\nOur eyes have met, our lips—not yet.</string>
+    <string name="toast_7">\t\t\tToast #7\n\nIf all the world were good and true,/nAnd you loved
+        me, and I loved you,/nAnd you were sure that no one knew,/nI’d kiss—would you?</string>
+    <string name="toast_8">\t\t\tToast #8\n\nMay your luck ever spread like jelly on bread.</string>
+    <string name="toast_9">\t\t\tToast #9\n\nMay Dame Fortune ever smile on you, but never her
+        daughter: Miss Fortune.</string>
+    <string name="toast_10">\t\t\tToast #10\n\nMay our sons have rich fathers and beautiful mothers.</string>
 </resources>
