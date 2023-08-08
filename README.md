@@ -3,7 +3,7 @@
 
 ViewPager.
 
-**Technical task:**
+**Task:**
 
 Create an application "Toast Generator".
 1) There is only one button on the main screen: "GET TOAST" and beautiful design.
